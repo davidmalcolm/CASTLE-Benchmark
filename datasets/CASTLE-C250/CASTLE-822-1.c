@@ -10,7 +10,7 @@ int main() {
     int input;
 
     printf("Enter a number: ");
-    scanf("%9d", input);
+    scanf("%9d", &input);
 
     ptr = (int *)malloc(sizeof(int));
     if (ptr == NULL) {
